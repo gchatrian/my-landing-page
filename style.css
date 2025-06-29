@@ -138,8 +138,8 @@ body {
 }
 
 .cta-button {
-    background: white;
-    color: #8b5cf6;
+    background: #ec4899;
+    color: white;
     border: none;
     padding: 1rem 2rem;
     font-size: 1.1rem;
@@ -148,13 +148,13 @@ body {
     cursor: pointer;
     transition: all 0.3s ease;
     animation: fadeInUp 1s ease 0.4s both;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 10px 30px rgba(236, 72, 153, 0.3);
 }
 
 .cta-button:hover {
     transform: translateY(-3px);
-    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3);
-    background: #faf5ff;
+    box-shadow: 0 15px 40px rgba(236, 72, 153, 0.4);
+    background: #db2777;
 }
 
 .hero-image {
@@ -275,8 +275,8 @@ body {
 
 .secondary-button {
     background: transparent;
-    color: #8b5cf6;
-    border: 2px solid #8b5cf6;
+    color: #ec4899;
+    border: 2px solid #ec4899;
     padding: 0.75rem 1.5rem;
     font-size: 1rem;
     font-weight: 600;
@@ -286,9 +286,10 @@ body {
 }
 
 .secondary-button:hover {
-    background: #8b5cf6;
+    background: #ec4899;
     color: white;
     transform: translateY(-2px);
+    box-shadow: 0 10px 30px rgba(236, 72, 153, 0.3);
 }
 
 .about-image {
